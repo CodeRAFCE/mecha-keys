@@ -23,7 +23,11 @@ const Scene = () => {
           <Keycap position={[-1.8, 1, 1.5]} rotation={[0, 1, 3]} texture={2} />
           <Keycap position={[0, 1, 1]} rotation={[0, 4, 2]} texture={3} />
           <Keycap position={[0.7, 0.9, 1.4]} rotation={[3, 2, 0]} texture={4} />
-          <Keycap position={[1.3, -3, 2.3]} rotation={[1, 2, 0]} texture={5} />
+          <Keycap
+            position={[1.3, -0.3, 2.3]}
+            rotation={[1, 2, 0]}
+            texture={5}
+          />
           <Keycap position={[0, 1, 2]} rotation={[2, 2, 3]} texture={6} />
           <Keycap position={[-0.7, 0.6, 2]} rotation={[1, 4, 0]} texture={7} />
           <Keycap
