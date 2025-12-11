@@ -1,5 +1,6 @@
 import { type Metadata } from "next";
 import { notFound } from "next/navigation";
+
 import { asImageSrc } from "@prismicio/client";
 import { SliceZone } from "@prismicio/react";
 
