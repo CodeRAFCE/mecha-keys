@@ -2,8 +2,8 @@
 
 import { Environment, PerspectiveCamera } from "@react-three/drei";
 
-import { Keyboard } from "@/components/Keyboard";
 import { Keycap } from "@/components/KeyCaps";
+import { Keyboard } from "@/components/Keyboard";
 
 const Scene = () => {
   const scalingFactor = window.innerWidth <= 500 ? 0.5 : 1;
@@ -14,7 +14,7 @@ const Scene = () => {
       <group scale={scalingFactor}>
         <Keyboard
           scale={9}
-          position={[0.25, -0.5, 2.1]}
+          position={[0.25, -0.5, 1.8]}
           rotation={[1.6, 0.2, 0]}
         />
         <group>
